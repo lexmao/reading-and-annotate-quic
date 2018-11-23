@@ -1,8 +1,6 @@
 # reading-and-annotate-quic
 goquic、libquic、quic_client_server_example源码注释分析
 
-
-
 一. goquic下载编译安装过程  
 ===================================    
 1. echo $GOPATH查看环境变量路径，然后进入该目录(根据自己实际情况进入相应目录)  
