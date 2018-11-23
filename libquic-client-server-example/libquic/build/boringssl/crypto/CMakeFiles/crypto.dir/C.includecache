@@ -82,9 +82,9 @@ time.h
 openssl/base.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/arm_arch.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/arm_arch.h
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/cpu-intel.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/cpu-intel.c
 openssl/cpu.h
 -
 inttypes.h
@@ -94,23 +94,23 @@ stdio.h
 string.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/crypto.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/crypto.c
 openssl/crypto.h
 -
 internal.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
 arm_arch.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/arm_arch.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/arm_arch.h
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/crypto_error.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/crypto_error.h
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory.h
 openssl/base.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory_posix.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory_posix.c
 directory.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory.h
 dirent.h
 -
 errno.h
@@ -118,9 +118,9 @@ errno.h
 string.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory_win.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory_win.c
 directory.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/directory.h
 windows.h
 -
 errno.h
@@ -130,7 +130,7 @@ string.h
 tchar.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ex_data.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ex_data.c
 openssl/ex_data.h
 -
 openssl/err.h
@@ -138,11 +138,11 @@ openssl/err.h
 openssl/thread.h
 -
 crypto_error.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/crypto_error.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/crypto_error.h
 internal.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ex_data_impl.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/ex_data_impl.c
 openssl/ex_data.h
 -
 assert.h
@@ -158,15 +158,15 @@ openssl/stack.h
 openssl/thread.h
 -
 crypto_error.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/crypto_error.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/crypto_error.h
 internal.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
 openssl/ex_data.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/mem.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/mem.c
 openssl/mem.h
 -
 assert.h
@@ -182,7 +182,7 @@ Windows.h
 strings.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/thread.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/thread.c
 openssl/thread.h
 -
 errno.h
@@ -196,7 +196,7 @@ openssl/mem.h
 openssl/type_check.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/time_support.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/time_support.c
 openssl/time_support.h
 -
 

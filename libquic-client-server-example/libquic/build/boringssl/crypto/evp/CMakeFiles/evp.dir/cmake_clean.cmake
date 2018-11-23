@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/evp.dir/algorithm.c.o"
   "CMakeFiles/evp.dir/asn1.c.o"
   "CMakeFiles/evp.dir/digestsign.c.o"
@@ -15,6 +15,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/evp.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/evp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

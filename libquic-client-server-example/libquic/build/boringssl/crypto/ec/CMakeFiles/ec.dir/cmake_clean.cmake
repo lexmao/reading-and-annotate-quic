@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/ec.dir/ec.c.o"
   "CMakeFiles/ec.dir/oct.c.o"
   "CMakeFiles/ec.dir/simple.c.o"
@@ -9,6 +9,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/ec.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/ec.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

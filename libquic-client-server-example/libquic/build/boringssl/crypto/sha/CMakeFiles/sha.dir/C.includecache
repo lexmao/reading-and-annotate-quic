@@ -48,17 +48,17 @@ openssl/stack_macros.h
 openssl/base.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/sha/../digest/md32_common.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/md32_common.h
 openssl/base.h
 -
 string.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/sha/../internal.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
 openssl/ex_data.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/sha/sha1.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/sha/sha1.c
 openssl/sha.h
 -
 string.h
@@ -66,9 +66,9 @@ string.h
 openssl/mem.h
 -
 ../digest/md32_common.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/sha/../digest/md32_common.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/md32_common.h
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/sha/sha256.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/sha/sha256.c
 openssl/sha.h
 -
 string.h
@@ -76,9 +76,9 @@ string.h
 openssl/mem.h
 -
 ../digest/md32_common.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/sha/../digest/md32_common.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/md32_common.h
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/sha/sha512.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/sha/sha512.c
 openssl/sha.h
 -
 string.h
@@ -86,5 +86,5 @@ string.h
 openssl/mem.h
 -
 ../internal.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/sha/../internal.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
 

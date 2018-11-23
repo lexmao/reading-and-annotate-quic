@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "sha1-x86_64.S"
   "sha256-x86_64.S"
   "sha512-x86_64.S"
@@ -11,6 +11,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang ASM C)
-  INCLUDE(CMakeFiles/sha.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang ASM C)
+  include(CMakeFiles/sha.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

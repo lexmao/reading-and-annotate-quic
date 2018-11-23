@@ -26,23 +26,23 @@ openssl/base.h
 
 ../boringssl/include/openssl/opensslfeatures.h
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/aes.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/aes.c
 openssl/aes.h
 -
 assert.h
 -
 internal.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/internal.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/internal.h
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/internal.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/internal.h
 openssl/base.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/mode_wrappers.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/mode_wrappers.c
 openssl/aes.h
 -
 assert.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/assert.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/aes/assert.h
 openssl/modes.h
 -
 

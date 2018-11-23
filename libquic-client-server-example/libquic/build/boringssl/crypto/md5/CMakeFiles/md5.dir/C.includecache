@@ -28,13 +28,13 @@ stdarg.h
 
 ../boringssl/include/openssl/opensslfeatures.h
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md5/../digest/md32_common.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/md32_common.h
 openssl/base.h
 -
 string.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md5/md5.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md5/md5.c
 openssl/md5.h
 -
 string.h
@@ -42,5 +42,5 @@ string.h
 openssl/mem.h
 -
 ../digest/md32_common.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/md5/../digest/md32_common.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/digest/md32_common.h
 

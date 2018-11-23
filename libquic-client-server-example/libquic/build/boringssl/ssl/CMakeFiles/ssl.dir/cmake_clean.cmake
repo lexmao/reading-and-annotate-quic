@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/ssl.dir/d1_both.c.o"
   "CMakeFiles/ssl.dir/d1_clnt.c.o"
   "CMakeFiles/ssl.dir/d1_lib.c.o"
@@ -30,6 +30,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/ssl.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/ssl.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

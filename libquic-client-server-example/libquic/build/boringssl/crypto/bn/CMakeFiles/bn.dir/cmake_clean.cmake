@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "x86_64-mont.S"
   "x86_64-mont5.S"
   "rsaz-x86_64.S"
@@ -28,6 +28,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang ASM C)
-  INCLUDE(CMakeFiles/bn.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang ASM C)
+  include(CMakeFiles/bn.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

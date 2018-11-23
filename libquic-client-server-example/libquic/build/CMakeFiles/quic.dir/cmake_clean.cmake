@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/quic.dir/src/net/quic/quic_protocol.cc.o"
   "CMakeFiles/quic.dir/src/net/quic/quic_packet_generator.cc.o"
   "CMakeFiles/quic.dir/src/net/quic/quic_flow_controller.cc.o"
@@ -205,6 +205,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C CXX)
-  INCLUDE(CMakeFiles/quic.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C CXX)
+  include(CMakeFiles/quic.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/rsa.dir/rsa.c.o"
   "CMakeFiles/rsa.dir/rsa_impl.c.o"
   "CMakeFiles/rsa.dir/blinding.c.o"
@@ -7,6 +7,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/rsa.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/rsa.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

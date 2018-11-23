@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "cpu-x86_64-asm.S"
   "CMakeFiles/crypto.dir/crypto.c.o"
   "CMakeFiles/crypto.dir/mem.c.o"
@@ -15,6 +15,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang ASM C)
-  INCLUDE(CMakeFiles/crypto.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang ASM C)
+  include(CMakeFiles/crypto.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

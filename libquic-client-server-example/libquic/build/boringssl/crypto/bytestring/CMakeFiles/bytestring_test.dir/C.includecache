@@ -54,11 +54,7 @@ openssl/stack_macros.h
 openssl/base.h
 -
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/../internal.h
-openssl/ex_data.h
--
-
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/bytestring_test.c
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/bytestring_test.c
 stdio.h
 -
 stdlib.h
@@ -70,11 +66,15 @@ openssl/crypto.h
 openssl/bytestring.h
 -
 internal.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/internal.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/internal.h
 ../internal.h
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/../internal.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
 
-/root/yangyazhou/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/internal.h
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/bytestring/internal.h
 openssl/base.h
+-
+
+/data/app/reading-and-annotate-quic/libquic-client-server-example/libquic/boringssl/crypto/internal.h
+openssl/ex_data.h
 -
 

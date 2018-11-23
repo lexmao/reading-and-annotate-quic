@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/pkcs8.dir/pkcs8.c.o"
   "CMakeFiles/pkcs8.dir/p8_pkey.c.o"
   "CMakeFiles/pkcs8.dir/p5_pbe.c.o"
@@ -6,6 +6,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/pkcs8.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/pkcs8.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

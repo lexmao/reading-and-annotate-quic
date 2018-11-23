@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/cipher.dir/cipher.c.o"
   "CMakeFiles/cipher.dir/derive_key.c.o"
   "CMakeFiles/cipher.dir/aead.c.o"
@@ -14,6 +14,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/cipher.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/cipher.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

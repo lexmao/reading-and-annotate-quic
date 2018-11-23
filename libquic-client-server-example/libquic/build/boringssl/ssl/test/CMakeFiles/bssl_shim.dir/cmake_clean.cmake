@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/bssl_shim.dir/async_bio.cc.o"
   "CMakeFiles/bssl_shim.dir/bssl_shim.cc.o"
   "CMakeFiles/bssl_shim.dir/malloc.cc.o"
@@ -9,6 +9,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/bssl_shim.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang CXX)
+  include(CMakeFiles/bssl_shim.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

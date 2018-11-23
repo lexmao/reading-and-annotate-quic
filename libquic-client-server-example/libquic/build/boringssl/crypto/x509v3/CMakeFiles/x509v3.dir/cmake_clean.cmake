@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/x509v3.dir/pcy_cache.c.o"
   "CMakeFiles/x509v3.dir/pcy_data.c.o"
   "CMakeFiles/x509v3.dir/pcy_lib.c.o"
@@ -34,6 +34,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/x509v3.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/x509v3.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

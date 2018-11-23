@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/x509.dir/a_digest.c.o"
   "CMakeFiles/x509.dir/a_sign.c.o"
   "CMakeFiles/x509.dir/a_strex.c.o"
@@ -50,6 +50,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/x509.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/x509.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

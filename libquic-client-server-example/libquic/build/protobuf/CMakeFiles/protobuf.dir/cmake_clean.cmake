@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/extension_set.cc.o"
   "CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/generated_message_util.cc.o"
   "CMakeFiles/protobuf.dir/__/src/third_party/protobuf/src/google/protobuf/io/coded_stream.cc.o"
@@ -17,6 +17,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang CXX)
-  INCLUDE(CMakeFiles/protobuf.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang CXX)
+  include(CMakeFiles/protobuf.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

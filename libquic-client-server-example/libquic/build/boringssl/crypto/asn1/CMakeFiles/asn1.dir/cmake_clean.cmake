@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "CMakeFiles/asn1.dir/a_bitstr.c.o"
   "CMakeFiles/asn1.dir/a_bool.c.o"
   "CMakeFiles/asn1.dir/a_bytes.c.o"
@@ -39,6 +39,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang C)
-  INCLUDE(CMakeFiles/asn1.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang C)
+  include(CMakeFiles/asn1.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

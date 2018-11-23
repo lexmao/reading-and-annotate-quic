@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "rc4-x86_64.S"
   "rc4-md5-x86_64.S"
   "CMakeFiles/rc4.dir/rc4.c.o"
@@ -7,6 +7,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang ASM C)
-  INCLUDE(CMakeFiles/rc4.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang ASM C)
+  include(CMakeFiles/rc4.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

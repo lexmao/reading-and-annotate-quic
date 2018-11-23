@@ -1,4 +1,4 @@
-FILE(REMOVE_RECURSE
+file(REMOVE_RECURSE
   "aes-x86_64.S"
   "aesni-x86_64.S"
   "bsaes-x86_64.S"
@@ -12,6 +12,6 @@ FILE(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-FOREACH(lang ASM C)
-  INCLUDE(CMakeFiles/aes.dir/cmake_clean_${lang}.cmake OPTIONAL)
-ENDFOREACH(lang)
+foreach(lang ASM C)
+  include(CMakeFiles/aes.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
